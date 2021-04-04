@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductFilterPipe } from './product/product-filter.pipe';
 import { AlertifyService } from './services/alertify.service';
+import { ProductAddForms1Component } from './product/product-add-forms1/product-add-forms1.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AlertifyService } from './services/alertify.service';
     ProductComponent,
     NavComponent,
     CategoryComponent,
-    ProductFilterPipe
+    ProductFilterPipe,
+    ProductAddForms1Component
   ],
   imports: [
     BrowserModule,
